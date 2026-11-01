@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — MovieBox</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #10181c; --muted: #55646b;
+    --accent: #0f766e; --rule: #e2e9eb; --card: #f6fafa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #05090c; --fg: #eef4f6; --muted: #9aa8af;
+            --accent: #2dd4bf; --rule: #233038; --card: #111a1f; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1rem 4rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font: 700 2rem/1.2 Georgia, "Times New Roman", serif; margin: 0 0 .4rem; }
+  h2 { font: 700 1.25rem/1.3 Georgia, "Times New Roman", serif; margin: 2.4rem 0 .6rem; }
+  h3 { font-size: 1rem; margin: 1.4rem 0 .4rem; }
+  .sub { color: var(--muted); margin: 0 0 2rem; font-size: .95rem; }
+  .card {
+    background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+    border-radius: 6px; padding: 1rem 1.25rem; margin: 1.25rem 0;
+  }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .93rem; }
+  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  code { background: var(--card); padding: .1rem .35rem; border-radius: 4px; font-size: .88em; overflow-wrap: anywhere; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  footer { color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy</h1>
+  <p class="sub">
+    MovieBox · Last updated 1 November 2026
+  </p>
+
+  <p>
+    MovieBox is a movie discovery and review app. This policy explains what the app stores on your
+    device, what it shares with third-party services, and the choices available to you.
+  </p>
+
+  <div class="card">
+    <strong>In short:</strong> MovieBox has no accounts and no servers of its own. Your watchlist
+    and settings stay on your device. The app uses Google services for advertising, usage
+    statistics (including the movies you view and the terms you search for) and crash reporting,
+    and requests movie information from TMDB. None of this is linked to your name or email address.
+  </div>
+
+  <h2>1. Information stored on your device</h2>
+  <p>
+    The following is saved only on your device. It is removed when you uninstall the app or clear
+    its storage.
+  </p>
+  <div class="table-wrap">
+  <table>
+    <tr><th>What</th><th>Why</th></tr>
+    <tr><td>Your watchlist (movie IDs, titles, posters, ratings, dates added)</td><td>So saved movies are available, including offline</td></tr>
+    <tr><td>Recent searches</td><td>To suggest your previous searches</td></tr>
+    <tr><td>Onboarding completion</td><td>So the introduction is not shown again</td></tr>
+    <tr><td>First-launch time and whether a review was requested</td><td>So the Google Play review prompt is requested only once</td></tr>
+    <tr><td>Notification prompt status</td><td>So the permission is requested only once</td></tr>
+    <tr><td>Cached movie images and data</td><td>To reduce data use and loading times</td></tr>
+  </table>
+  </div>
+
+  <h2>2. Information collected by third-party services</h2>
+  <p>
+    MovieBox does not operate its own servers. The services below run inside the app and handle
+    data under their own privacy policies.
+  </p>
+
+  <h3>Google AdMob (advertising)</h3>
+  <p>
+    The app is free and supported by advertising. AdMob may collect your device's advertising ID,
+    approximate location derived from your IP address, and ad interaction data in order to serve and
+    measure ads, including personalised ads where you have allowed them.
+  </p>
+  <ul>
+    <li>Where required by law (for example in the EEA and UK), you are asked for advertising consent
+        when you first open the app.</li>
+    <li>You can reset your advertising ID or opt out of ad personalisation in your device settings
+        (<em>Settings → Google → Ads</em>, or <em>Settings → Privacy → Ads</em> on some devices).</li>
+    <li><a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a></li>
+  </ul>
+
+  <h3>Firebase Analytics (Google)</h3>
+  <p>
+    Analytics helps us understand how the app is used so we can improve it. Along with standard
+    information such as device model, operating system version, country and an app instance
+    identifier, the app records these events:
+  </p>
+  <ul>
+    <li>Movies you open (the movie's TMDB ID and title)</li>
+    <li>Terms you type into search</li>
+    <li>Trailers you open and movies you add to your watchlist (by TMDB ID)</li>
+    <li>Whether ads were requested and shown</li>
+  </ul>
+  <p>
+    Because the app has no accounts, this information is not linked to your name, email address or
+    phone number.
+  </p>
+
+  <h3>Firebase Crashlytics (Google)</h3>
+  <p>
+    If the app crashes, Crashlytics sends a report containing the error, the device model and the
+    operating system version. It is used only to find and fix faults.
+  </p>
+
+  <h3>Firebase Remote Config (Google)</h3>
+  <p>
+    The app downloads its settings (for example, how often ads are shown) from Remote Config. The
+    request identifies the app installation but contains no personal information.
+  </p>
+  <p><a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a></p>
+
+  <h3>TMDB (The Movie Database)</h3>
+  <p>
+    Movie information, artwork, cast details and reviews are requested from the TMDB API. When you
+    search, your search term is sent to TMDB to find matching movies. These requests include your IP
+    address, as any internet request does. MovieBox does not send TMDB your watchlist or any other
+    information about you.
+  </p>
+  <p>
+    This product uses the TMDB API but is not endorsed or certified by TMDB.
+    <a href="https://www.themoviedb.org/privacy-policy">TMDB privacy policy</a>
+  </p>
+
+  <h3>YouTube (trailers)</h3>
+  <p>
+    Trailers are hosted on YouTube. Opening a trailer hands it to the YouTube app, or to your
+    browser if YouTube is not installed, where
+    <a href="https://policies.google.com/privacy">Google's privacy policy</a> applies.
+  </p>
+
+  <h3>Google Play (in-app review)</h3>
+  <p>
+    The app may ask Google Play to show its standard rating prompt. Google decides whether the
+    prompt appears, and MovieBox is not told what you rate or write.
+  </p>
+
+  <h2>3. Permissions</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Permission</th><th>Purpose</th></tr>
+    <tr><td>Internet and network state</td><td>To load movie information, images and ads</td></tr>
+    <tr><td>Notifications</td><td>Optional. To tell you about new releases, reviews and watchlist reminders. The app works fully without it, and it is requested only once.</td></tr>
+  </table>
+  </div>
+
+  <h2>4. Your choices</h2>
+  <ul>
+    <li><strong>Notifications</strong> — turn them on or off at any time in your device's app settings.</li>
+    <li><strong>Ad personalisation</strong> — change it in your device's ad settings, or reset your advertising ID.</li>
+    <li><strong>Advertising consent</strong> — where a consent form was shown, you can change your choice by clearing the app's storage, which shows the form again on the next launch.</li>
+    <li><strong>Stored data</strong> — clearing the app's storage or uninstalling removes your watchlist, searches and settings permanently.</li>
+  </ul>
+
+  <h2>5. Children</h2>
+  <p>
+    MovieBox is not directed at children under 13 and does not knowingly collect information from
+    them. Movie information comes from TMDB and may include titles intended for adult audiences.
+  </p>
+
+  <h2>6. Data retention and security</h2>
+  <p>
+    Data on your device remains until you delete it. Data held by Google and TMDB is retained under
+    their own policies. Because MovieBox has no account system and no server, there is no profile
+    of you for us to store, expose or delete.
+  </p>
+
+  <h2>7. Streaming</h2>
+  <p>
+    MovieBox is a discovery and review app. It does not host, stream, download or provide access to
+    films. The <em>Watch</em> button opens a film's official trailer on YouTube.
+  </p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>
+    This policy may be updated as the app develops. The date at the top of the page shows when it
+    last changed.
+  </p>
+
+  <h2>9. Contact</h2>
+  <p>
+    Questions about this policy or your data can be sent to
+    <a href="mailto:devnexatechai@gmail.com">devnexatechai@gmail.com</a>.
+  </p>
+
+  <hr>
+  <footer>
+    MovieBox · This product uses the TMDB API but is
+    not endorsed or certified by TMDB.
+  </footer>
+
+</main>
+</body>
+</html>
